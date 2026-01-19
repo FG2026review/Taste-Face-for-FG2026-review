@@ -38,6 +38,7 @@ Because each taste is presented only once per participant, no trial index is req
 
 Raw facial videos are organized by participant:
 
+```
 data/videos/
 └── S001/
 ├── sweetness.mp4
@@ -46,7 +47,7 @@ data/videos/
 ├── bitterness.mp4
 ├── umami.mp4
 └── astringency.mp4
-
+```
 
 ### File naming convention
 
@@ -71,6 +72,7 @@ Each file represents the unique recording of that taste stimulus for the given p
 
 Frame-level images are extracted from the raw videos and stored in a directory structure mirroring `data/videos/`:
 
+```
 data/frames/
 └── S001/
 ├── sweetness/
@@ -81,6 +83,7 @@ data/frames/
 │ ├── frame_0001.jpg
 │ └── ...
 └── ...
+```
 
 
 ### Frame naming convention

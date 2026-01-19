@@ -53,6 +53,7 @@ This empirically demonstrates that taste-induced facial behavior constitutes a *
 
 This preview repository reflects the *final dataset organization* while exposing only a small, non-identifying subset of the data:
 
+```
 Taste-Face/
 ├── data/
 │ ├── ratings/ # Anonymized subjective rating tables (preview)
@@ -62,7 +63,7 @@ Taste-Face/
 ├── docs/ # Dataset documentation (structure, protocol, schema)
 ├── README.md
 └── DATA_USAGE_POLICY.md
-
+```
 
 - `data/videos/` and `data/frames/` contain **example samples only**, selected to illustrate:
   - The authenticity of the recordings  

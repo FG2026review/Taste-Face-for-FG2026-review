@@ -3,7 +3,9 @@
 This directory contains raw facial videos recorded during taste stimulation.
 
 Structure:
+```
 videos/<subject_id>/<taste_type>.mp4
+```
 
 Each file represents the unique recording of one participant under one taste stimulus.
 

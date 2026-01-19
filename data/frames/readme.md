@@ -3,7 +3,9 @@
 This directory contains frame-level images extracted from the raw videos.
 
 Structure:
+```
 frames/<subject_id>/<taste_type>/frame_XXXX.jpg
+```
 
 Each directory corresponds to one video in `data/videos/` and preserves temporal order.
 
